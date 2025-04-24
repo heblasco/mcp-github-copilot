@@ -1,0 +1,27 @@
+{
+  "name": "mcp-stio-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && shx cp .env build/.env && shx chmod 755 build/index.js"
+  },
+  "keywords": [],
+  "author": "Gisela Torres",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
+    "googleapis": "^146.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "shx": "^0.3.4",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "build"
+  ]
+}
