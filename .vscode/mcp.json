@@ -13,7 +13,7 @@
           "command": "npx",
           "args": ["-y", "@modelcontextprotocol/server-google-maps"],
           "env": {
-            "GOOGLE_MAPS_API_KEY": "AIzaSyAYYOPAMFjRrfJTwQLjY9lAM2qN0i_IXp0"
+            "GOOGLE_MAPS_API_KEY": "<APIKEY>"
           }
         }
       }
