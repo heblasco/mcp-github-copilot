@@ -9,7 +9,7 @@
                     "c:/Users/heblasco/VScode/mcp-github-copilot/mcp-stdio/build/index.js"
                 ],
                 "env": {
-                    "YOUTUBE_API_KEY": "AIzaSyBy-EcUfa42x-phrxQFVuu2Wm5sZsrsgWg"
+                    "YOUTUBE_API_KEY": "<APIKEY>"
                 }
             },
             // "spotify": {
@@ -48,7 +48,7 @@
                 "ghcr.io/github/github-mcp-server"
                 ],
                 "env": {
-                "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "<APIKEY>"
                 }
             },           
             "google-maps": {
@@ -62,7 +62,7 @@
                     "mcp/google-maps"
                 ],
                 "env": {
-                    "GOOGLE_MAPS_API_KEY": "AIzaSyAYYOPAMFjRrfJTwQLjY9lAM2qN0i_IXp0"
+                    "GOOGLE_MAPS_API_KEY": "<APIKEY>"
                 }
             },
             // "spotify-mcp": {
