@@ -2,8 +2,6 @@
 
 ¡Hola developer 👋🏻! En este repo encontrarás las demos que te mostré durante mi vídeo [Cómo crear MCP Servers y usarlos con GitHub Copilot Chat 🚀💻🤖](https://youtu.be/khz4nWR9l20) que puedes encontrar en mi canal de YouTube.
 
-![MCP Servers y GitHub Copilot Chat](images/Cómo%20crear%20MCP%20Servers%20y%20usarlos%20con%20GitHub%20Copilot%20Chat.png)
-
 ## ¿Qué es Model Context Protocol 🤔?
 
 Model Context Protocol (MCP) es un protocolo que permite a los modelos de lenguaje interactuar con otros sistemas y servicios a través de un conjunto de APIs estandarizadas. Esto permite a los modelos de lenguaje acceder a información externa y realizar acciones en otros sistemas, lo que amplía su funcionalidad y utilidad. En la documentación oficial se compara con un USB-C, que permite conectar diferentes dispositivos y sistemas.
