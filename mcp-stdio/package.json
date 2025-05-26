@@ -7,7 +7,7 @@
     "build": "tsc && shx cp .env build/.env && shx chmod 755 build/index.js"
   },
   "keywords": [],
-  "author": "Gisela Torres",
+  "author": "Hector Blasco",
   "license": "ISC",
   "description": "",
   "dependencies": {
