@@ -1,0 +1,20 @@
+[
+  {"equipo": "Pontevedra", "Totales PT": "72", "Totales PJ": "34", "Totales PE": "6", "Totales PP": "6", "Totales GF": "51", "Totales GC": "30"},
+  {"equipo": "Numancia", "Totales PT": "67", "Totales PJ": "34", "Totales PE": "10", "Totales PP": "5", "Totales GF": "55", "Totales GC": "24"},
+  {"equipo": "Real Avilés", "Totales PT": "55", "Totales PJ": "34", "Totales PE": "13", "Totales PP": "7", "Totales GF": "46", "Totales GC": "38"},
+  {"equipo": "Fabril", "Totales PT": "54", "Totales PJ": "34", "Totales PE": "6", "Totales PP": "12", "Totales GF": "48", "Totales GC": "29"},
+  {"equipo": "Real Ávila", "Totales PT": "52", "Totales PJ": "34", "Totales PE": "7", "Totales PP": "12", "Totales GF": "35", "Totales GC": "29"},
+  {"equipo": "Langreo", "Totales PT": "50", "Totales PJ": "34", "Totales PE": "11", "Totales PP": "10", "Totales GF": "34", "Totales GC": "35"},
+  {"equipo": "Rayo Cantabria", "Totales PT": "48", "Totales PJ": "34", "Totales PE": "9", "Totales PP": "12", "Totales GF": "55", "Totales GC": "45"},
+  {"equipo": "Bergantiños", "Totales PT": "47", "Totales PJ": "34", "Totales PE": "8", "Totales PP": "13", "Totales GF": "50", "Totales GC": "47"},
+  {"equipo": "Salamanca UDS", "Totales PT": "47", "Totales PJ": "34", "Totales PE": "8", "Totales PP": "13", "Totales GF": "43", "Totales GC": "48"},
+  {"equipo": "Marino de Luanco", "Totales PT": "45", "Totales PJ": "34", "Totales PE": "9", "Totales PP": "13", "Totales GF": "38", "Totales GC": "36"},
+  {"equipo": "Coruxo", "Totales PT": "45", "Totales PJ": "34", "Totales PE": "9", "Totales PP": "13", "Totales GF": "36", "Totales GC": "33"},
+  {"equipo": "Real Valladolid B", "Totales PT": "44", "Totales PJ": "34", "Totales PE": "11", "Totales PP": "12", "Totales GF": "42", "Totales GC": "43"},
+  {"equipo": "Escobedo", "Totales PT": "43", "Totales PJ": "34", "Totales PE": "13", "Totales PP": "11", "Totales GF": "31", "Totales GC": "39"},
+  {"equipo": "Compostela", "Totales PT": "39", "Totales PJ": "34", "Totales PE": "9", "Totales PP": "15", "Totales GF": "37", "Totales GC": "44"},
+  {"equipo": "Llanera", "Totales PT": "38", "Totales PJ": "34", "Totales PE": "11", "Totales PP": "14", "Totales GF": "33", "Totales GC": "46"},
+  {"equipo": "Gimnástica Torrelavega", "Totales PT": "31", "Totales PJ": "34", "Totales PE": "10", "Totales PP": "17", "Totales GF": "38", "Totales GC": "48"},
+  {"equipo": "Guijuelo", "Totales PT": "30", "Totales PJ": "34", "Totales PE": "12", "Totales PP": "16", "Totales GF": "27", "Totales GC": "50"},
+  {"equipo": "Laredo", "Totales PT": "24", "Totales PJ": "34", "Totales PE": "12", "Totales PP": "18", "Totales GF": "25", "Totales GC": "60"}
+]

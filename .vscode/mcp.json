@@ -1,0 +1,80 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "maps_api_key",
+      "description": "Google Maps API Key",
+      "password": true
+    },
+    {
+      "id": "gh-pat",
+      "type": "promptString",
+      "password": true,
+      "description": "Enter your GitHub Personal Access Token (PAT) to access private repositories."
+    },
+    {
+      "id": "youtube_api_key",
+      "type": "promptString",
+      "description": "YouTube API Key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "stdio-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "c:/Users/heblasco/VScode/mcp-github-copilot/mcp-stdio/build/index.js"
+      ],
+      "env": {
+        "YOUTUBE_API_KEY": "${input:youtube_api_key}"
+      }
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-google-maps"
+      ],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${input:maps_api_key}"
+      }
+    },
+    "playwright-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:gh-pat}"
+      }
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb",
+        "--ignore-robots-txt"
+      ]
+    },
+    "weather": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_weather_server"
+      ]
+    }
+  }
+}

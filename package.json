@@ -2,9 +2,11 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.2",
     "dotenv": "^16.5.0",
-    "googleapis": "^148.0.0"
+    "googleapis": "^148.0.0",
+    "zubeid-youtube-mcp-server": "^1.0.0"
   },
   "devDependencies": {
-    "@types/dotenv": "^8.2.3"
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.2"
   }
 }
