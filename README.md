@@ -1,4 +1,4 @@
-# Cómo crear MCP Servers y usarlos con GitHub Copilot Chat 🚀💻🤖
+# Cómo crear MCP Servers y usarlos con GitHub Copilot Chat. 🚀💻🤖
 
 ¡Hola developer 👋🏻! En este repo encontrarás las demos que te mostré durante mi vídeo [Cómo crear MCP Servers y usarlos con GitHub Copilot Chat 🚀💻🤖](https://youtu.be/khz4nWR9l20) que puedes encontrar en mi canal de YouTube.
 
